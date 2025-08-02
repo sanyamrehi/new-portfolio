@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Sanyam Rehi | Portfolio</title>
+  <style>
+    :root {
+      --bg: #0f172a;
+      --card: #1e293b;
+      --accent: #38bdf8;
+      --text: #f1f5f9;
+    }
+
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.6;
+    }
+
+    header, section, footer {
+      padding: 2rem 1rem;
+      max-width: 1000px;
+      margin: auto;
+    }
+
+    h1, h2 {
+      color: var(--accent);
+    }
+
+    a {
+      color: var(--accent);
+      text-decoration: none;
+    }
+
+    .card {
+      background: var(--card);
+      padding: 1rem;
+      margin: 1rem 0;
+      border-radius: 8px;
+    }
+
+    .grid {
+      display: grid;
+      gap: 1rem;
+    }
+
+    @media(min-width: 600px) {
+      .grid-2 { grid-template-columns: 1fr 1fr; }
+    }
+
+    footer {
+      text-align: center;
+      font-size: 0.9rem;
+      color: #94a3b8;
+      margin-bottom: 2rem;
+    }
+
+    .social a {
+      margin-right: 1rem;
+    }
+
+    .nav {
+      text-align: center;
+      margin-top: 1rem;
+    }
+
+    .nav a {
+      margin: 0 10px;
+      font-weight: bold;
+    }
+
+    .section-title {
+      margin-bottom: 1rem;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Sanyam Rehi</h1>
+    <p>Junior Laravel Developer</p>
+    <p><a href="mailto:sanyamrehi@gmail.com">sanyamrehi@gmail.com</a> | +91 94094 11703</p>
+    <div class="social">
+      <a href="https://github.com/sanyamrehi" target="_blank">GitHub</a>
+      <a href="https://www.linkedin.com/in/sanyam-rehi-9a4a9a21a" target="_blank">LinkedIn</a>
+    </div>
+    <div class="nav">
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#experience">Experience</a>
+      <a href="#education">Education</a>
+      <a href="#contact">Contact</a>
+    </div>
+  </header>
+
+  <section id="about">
+    <h2 class="section-title">About Me</h2>
+    <div class="card">
+      <p>Dedicated Laravel Developer with a B.Tech in Computer Engineering and internship experience in PHP-based systems. Skilled in Laravel, MySQL, Blade, Bootstrap, and full-stack web development. Eager to build clean and scalable web apps.</p>
+    </div>
+  </section>
+
+  <section id="skills">
+    <h2 class="section-title">Technical Skills</h2>
+    <div class="grid grid-2">
+      <div class="card"><strong>Languages:</strong><br> PHP, JavaScript, Python, HTML, CSS</div>
+      <div class="card"><strong>Frameworks:</strong><br> Laravel, Flask, Bootstrap</div>
+      <div class="card"><strong>Databases:</strong><br> MySQL, SQLite</div>
+      <div class="card"><strong>Tools:</strong><br> Git, VS Code, Postman, XAMPP</div>
+    </div>
+  </section>
+
+  <section id="projects">
+    <h2 class="section-title">Projects</h2>
+    <div class="grid">
+      <div class="card">
+        <strong>Job Portal (Laravel)</strong>
+        <p>Employer & candidate system with job posting, applications, and admin dashboard.</p>
+      </div>
+      <div class="card">
+        <strong>Family Tree Website</strong>
+        <p>Dynamic parent-child data structure with photo uploads and relationship management.</p>
+      </div>
+      <div class="card">
+        <strong>Web Scraper (Python)</strong>
+        <p>Product scraper using BeautifulSoup with pagination and CSV export.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="experience">
+    <h2 class="section-title">Experience</h2>
+    <div class="card">
+      <strong>Laravel Developer Intern – Excelsior Technologies</strong>
+      <p>Oct 2024 – Apr 2025</p>
+      <ul>
+        <li>Developed Laravel modules and internal tools</li>
+        <li>Worked on family tree and task management features</li>
+        <li>Used Blade templates, REST APIs, migrations</li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="education">
+    <h2 class="section-title">Education</h2>
+    <div class="grid grid-2">
+      <div class="card"><strong>B.Tech in Computer Engineering</strong><br>Atmiya Institute (2020–2023)</div>
+      <div class="card"><strong>Diploma in Computer Engineering</strong><br>Kalyan Polytechnic (2017–2020)</div>
+      <div class="card"><strong>Secondary School (X)</strong><br>Gujarat Board (2017)</div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2 class="section-title">Contact</h2>
+    <div class="card">
+      <p>Email: <a href="mailto:sanyamrehi@gmail.com">sanyamrehi@gmail.com</a></p>
+      <p>Phone: +91 94094 11703</p>
+      <p>GitHub: <a href="https://github.com/sanyamrehi" target="_blank">github.com/sanyamrehi</a></p>
+      <p>LinkedIn: <a href="https://linkedin.com/in/sanyam-rehi-9a4a9a21a" target="_blank">sanyam-rehi</a></p>
+    </div>
+  </section>
+
+  <footer>
+    &copy; 2025 Sanyam Rehi — Built with HTML, CSS & 💙
+  </footer>
+
+</body>
+</html>
